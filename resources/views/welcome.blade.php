@@ -65,13 +65,7 @@
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="top-right links">
-                    <a href="{{ url('/login') }}">Login</a>
-                    <a href="{{ url('/register') }}">Register</a>
-                </div>
-            @endif
+        <div class="flex-center position-ref">
 
             <div class="content">
                 <div class="title m-b-md">
@@ -79,13 +73,41 @@
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="/lorem-ipsum">Lorem Ipsum Generator</a>
+                    <a href="/random-user">Random User Generator</a>
                 </div>
-            </div>
+
+                @if(Route::current()->getName() == 'HomePage')
+                  Hello This is HomePage
+                @endif
+
         </div>
+
+      </div>
+
+      <!-- <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-xs-6">
+              <p>Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+            </div>
+            <div class="col-xs-6">
+              <p>Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+       <section class="col-sm-6">
+         <h3>General Health</h3>
+         <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings are just a few of our general health services.</p>
+       </section>
+       <section class="col-sm-6">
+         <h3>Nutrition</h3>
+         <p>Let our nutrition experts review your pet's diet and prescribe a custom nutrition plan for optimum health and disease prevention.</p>
+       </section>
+     </div> -->
+
     </body>
 </html>
