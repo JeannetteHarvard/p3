@@ -17,10 +17,10 @@
 
   <div class="row">
       <div class="col-xs-6">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/lorem-ipsum">Go ahead and try Lorem Ipsum Generator! >>></a>
+        <blockquote class="linkquote"><a href="/lorem-ipsum">Go ahead and try <em>Lorem Ipsum Generator!</em> >>></a></blockquote>
       </div>
       <div class="col-xs-6">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/lorem-ipsum">Go ahead and try User Generator! >>></a>
+        <blockquote class="linkquote"><a href="/lorem-ipsum">Go ahead and try <em>User Generator!</em> >>></a></blockquote>
     </div>
   </div>
 

@@ -7,10 +7,17 @@
 
 h1 {
     color: white;
-    t33ext-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
     text-shadow: 1px 1px 2px black, 0 0 25px #337ab7, 0 0 5px #000000;
 }
 
 footer {
   color: lightgrey;
+}
+
+blockquote.linkquote {
+  border-left: 5px solid #DC143C;
+}
+
+blockquote.linkquote em {
+  color: #DC143C
 }
