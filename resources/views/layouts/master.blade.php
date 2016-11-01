@@ -23,14 +23,14 @@
 
     <header class=bgimage>
       <div class="container">
-        <h1>@yield('title','Developer\'s Best Friend')</h1>
+        <h1><a href="{{ route('HomePage') }}">@yield('title','Developer\'s Best Friend')</a></h1>
         by Jeannette D.
       </div>
     </header>
 
 <div class="container">
     @if(Route::current()->getName() != 'HomePage')
-      <a href="\"><< Back</a>
+      <a href="{{ route('HomePage') }}"><< Back</a>
       <br><br>
     @endif
 </div>
