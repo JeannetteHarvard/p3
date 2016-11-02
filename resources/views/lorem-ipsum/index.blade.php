@@ -5,20 +5,24 @@
 @stop
 
 @section('content')
-<h4>Generate HTML text:</h4>
-<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">Lipsum</span><span class="pl-k">::</span>html();</span></pre></div>
-{!! Lipsum::html() !!}
 
-<hr>
-<h4>Generate five paragraph HTML text with headers, link and unordered list:</h4>
-<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">Lipsum</span><span class="pl-k">::</span>headers()<span class="pl-k">-&gt;</span>link()<span class="pl-k">-&gt;</span>ul()<span class="pl-k">-&gt;</span>html(<span class="pl-c1">5</span>);</span></pre></div>
-{!! Lipsum::headers()->link()->ul()->html(5) !!}
+@if(count($errors) > 0)
+    <div class="alert alert-danger">
+      <strong>Attention! Please, re-check your input:</strong>
+    <ul>
+        @foreach ($errors->all() as $error)
+            <li>{{ $error }}</li>
+        @endforeach
+    </ul>
+  </div>
+@endif
 
-
-<hr>
-<h4>Generate three short plain text paragraphs:</h4>
-<div class="highlight highlight-text-html-php"><pre><span class="pl-s1"><span class="pl-c1">Lipsum</span><span class="pl-k">::</span>short()<span class="pl-k">-&gt;</span>text(<span class="pl-c1">3</span>);</span></pre></div>
-{!! Lipsum::short()->text(3) !!}
-
+<form method='POST' action='/lorem-ipsum/generate'>
+    {{ csrf_field() }}
+    <label for="paragraphs">Number of Paragraphs</label>
+    <input type='text' name='paragraphs' m33axlength="2" value="3" id="paragraphs"> (Max: 33)
+    <br>
+    <input type='submit' value='Lorem Ipsum Now!'>
+</form>
 
 @stop

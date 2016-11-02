@@ -30,7 +30,7 @@
 
 <div class="container">
     @if(Route::current()->getName() != 'HomePage')
-      <a href="{{ route('HomePage') }}"><< Back</a>
+      <a href="{{ route('HomePage') }}">Home</a>
       <br><br>
     @endif
 </div>

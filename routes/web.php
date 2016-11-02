@@ -28,4 +28,6 @@ Route::get('/debug', function () {
 
 
 Route::get('/lorem-ipsum', 'LoremIpsumController@index')->name('lorem-ipsum');
+Route::post('/lorem-ipsum/generate', 'LoremIpsumController@generate')->name('lorem-ipsum.generate');
+
 Route::get('/random-user', 'RandomUserController@index')->name('random-user');
