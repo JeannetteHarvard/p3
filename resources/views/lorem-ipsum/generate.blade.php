@@ -13,6 +13,6 @@
 
 </br></br>
 
-<a href="/lorem-ipsum"><< Back to Lorem Ipsum</a>
+<a href="/lorem-ipsum"><< Back to Lorem Ipsum Generator</a>
 
 @stop
