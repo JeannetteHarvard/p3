@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-    Lorem Ipsum Generator
+    Random User Generator
 @stop
 
 @section('content')
