@@ -36,10 +36,10 @@
 </div>
 
 <div class="container">
-    <section>
+
         {{-- Main page content will be yielded here --}}
         @yield('content')
-    </section>
+    
 </div>
 
 <br><br>

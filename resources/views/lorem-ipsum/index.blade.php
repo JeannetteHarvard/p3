@@ -22,10 +22,10 @@
 
 <div class="row">
     <div class="col-lg-2"><label for="paragraphs">Number of Paragraphs</label></div>
-    <div class="col-lg-3"><input type='text' name='paragraphs'value="{{ old('paragraphs') }}" id="paragraphs"> (Max: 33)</div>
+    <div class="col-lg-3"><input type='text' name='paragraphs' value="{{ old('paragraphs') }}" id="paragraphs"> (Max: 33)</div>
 </div>
 <div class="row">
-    <div class="col-lg-2"><label for="links">Paragraph Size</label></div>
+    <div class="col-lg-2"><label for="paragraphsize">Paragraph Size</label></div>
     <div class="col-lg-3"><select name="paragraphsize">
       <option value="short">Short</option>
       <option value="medium">Medium</option>
@@ -34,12 +34,12 @@
      </div>
 </div>
 <div class="row">
-    <div class="col-lg-2"><label for="linkorlist">Include a Link</label></div>
-    <div class="col-lg-3"><input name="linkorlist" type="radio" value="link"> </div>
+    <div class="col-lg-2"><label for="link">Include a Link</label></div>
+    <div class="col-lg-3"><input name="linkorlist" type="radio" value="link" id="link"> </div>
 </div>
 <div class="row">
-    <div class="col-lg-2"><label for="linkorlist">Include unordered list</label></div>
-    <div class="col-lg-3"><input name="linkorlist" type="radio" value="list"> </div>
+    <div class="col-lg-2"><label for="list">Include unordered list</label></div>
+    <div class="col-lg-3"><input name="linkorlist" type="radio" value="list" id="list"> </div>
 </div>
 
     <input type='submit' value='Lorem Ipsum Now!'>
