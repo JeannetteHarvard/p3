@@ -5,7 +5,7 @@
 <http://p3.jeannette.nyc/>
 
 ## Description
-First Laravel Project featuring 2 functionalities achieved through implementation external packages:
+First Laravel Project featuring 2 functionalities achieved through implementation of the below external packages:
 - Lorem Ipsum Generator: generates filler lorem ipsum paragraphs based on user input for number, size, links or list
 - Random User Generator: generates random user data with the possibility of including a picture, date of birth, US address and a brief profile
 
@@ -16,7 +16,8 @@ TBD
 
 ## Details for Teaching Team
 Our Developer's Best Friend toolset features Lorem Ipsum and Random User generators with advanced functionality. No special instructions are required as the interface is straightforward.
-The project used standard Laravel Framework coding procedures with the implementation of two external packages.
+
+The project uses standard Laravel Framework coding procedures with the implementation of two external packages.
 
 ## Outside code & sources
 - Laravel Framework
