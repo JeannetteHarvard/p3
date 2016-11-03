@@ -20,7 +20,8 @@ Our Developer's Best Friend toolset features Lorem Ipsum and Random User generat
 The project uses standard Laravel Framework coding procedures with the implementation one Laravel package and one PHP package.
 
 ## Outside code & sources
-- Laravel Framework
+- Laravel Framework version 5.3.21
+<http://laravel.com/>
 - Laravel Ipsum package 'magyarjeti/laravel-lipsum'
 <https://github.com/magyarjeti/laravel-lipsum>
 - Random User package 'fzaninotto/Faker'
