@@ -7,11 +7,11 @@
   <div class="row">
       <div class="col-xs-6">
         <h3><a href="/lorem-ipsum">Lorem Ipsum Generator</a></h3>
-        <blockquote>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte.</blockquote>
+        <blockquote>Lorem Ipsum is a filler text frequently used as a placeholder to replace meaningful content. Our Lorem Ipsum Generator allows to request a predefined number of paragraphs, their size, and some additional options such as containing a link or an unordered list.</blockquote>
       </div>
       <div class="col-xs-6">
         <h3><a href="/random-user">Random User Generator</a></h3>
-        <blockquote>On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.</blockquote>
+        <blockquote>Our generator of Random User data is a great tool to quickly generate realistically looking personalized data. All random users have full names, and on a request basis may also contain image, date of birth, full address in the US and brief profile. </blockquote>
       </div>
   </div>
 
