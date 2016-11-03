@@ -19,7 +19,7 @@ Our Developer's Best Friend toolset features Lorem Ipsum and Random User generat
 
 The project uses standard Laravel Framework coding procedures with the implementation one Laravel package and one PHP package.
 
-## Outside code & sources
+## Outside Code & Sources
 - Laravel Framework version 5.3.21
 <http://laravel.com/>
 - Laravel Ipsum package 'magyarjeti/laravel-lipsum'
@@ -33,5 +33,5 @@ The project uses standard Laravel Framework coding procedures with the implement
 - The background image is borrowed from the following article:
 <https://www.linkedin.com/pulse/what-robotic-process-automation-rpa-josh-noble>
 
-## Project submission date
+## Project Submission Date
 November 3, 2016
