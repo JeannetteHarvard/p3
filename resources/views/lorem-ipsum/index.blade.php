@@ -26,7 +26,7 @@
 </div>
 <div class="row">
     <div class="col-lg-2"><label for="paragraphsize">Paragraph Size</label></div>
-    <div class="col-lg-3"><select name="paragraphsize">
+    <div class="col-lg-3"><select name="paragraphsize" id="paragraphsize">
       <option value="short">Short</option>
       <option value="medium">Medium</option>
       <option value="long">Long</option>
