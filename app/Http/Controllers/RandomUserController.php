@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -21,14 +20,19 @@ class RandomUserController extends Controller
         'users' => 'required|numeric|min:1|max:33',
     ]);
 
-
-      // if paragraphs is empty, still considered as empty string..
+      // getting input parameters
       $users = $request->input('users', '3');
-      // $data = $request->all();
-      // dd($paragraphs);
+      $pictures = $request->input('pictures');
+      $dateofbirth = $request->input('dateofbirth');
+      $address = $request->input('address');
+      $profile = $request->input('profile');
 
-      return view('random-user.generate')->with('users', $users);
-      // return 'hi';
+      return view('random-user.generate')
+        ->with('users', $users)
+        ->with('pictures', $pictures)
+        ->with('dateofbirth', $dateofbirth)
+        ->with('address', $address)
+        ->with('profile', $profile);
   }
 
 }

@@ -18,17 +18,28 @@
 
 <form method='POST' action='/random-user/generate'>
     {{ csrf_field() }}
-    <label for="users">Number of Users</label>
-    <input type='text' name='users' m33axlength="2" value="{{ old('users') }}" id="users"> (Max: 33)
-    <br>
-    <label for="links">Pictures</label>
-    <br>
-    <label for="links">Date of Birth</label>
-    <br>
-    <label for="links">Address</label>
-    <br>
-    <label for="links">Profile</label>
-    <br>
+
+<div class="row">
+    <div class="col-lg-2"><label for="users">Number of Users</label></div>
+    <div class="col-lg-3"><input type='text' name='users' value="{{ old('users') }}" id="users"> (Max: 33)</div>
+</div>
+<div class="row">
+    <div class="col-lg-2"><label for="pictures">Pictures</label></div>
+    <div class="col-lg-3"><input name="pictures" type="checkbox"> </div>
+</div>
+<div class="row">
+    <div class="col-lg-2"><label for="dateofbirth">Date of Birth</label></div>
+    <div class="col-lg-3"><input name="dateofbirth" type="checkbox"> </div>
+</div>
+<div class="row">
+    <div class="col-lg-2"><label for="address">Address</label></div>
+    <div class="col-lg-3"><input name="address" type="checkbox"> </div>
+</div>
+<div class="row">
+    <div class="col-lg-2"><label for="profile">Profile</label></div>
+    <div class="col-lg-3"><input name="profile" type="checkbox"> </div>
+</div>
+
     <input type='submit' value='Get My Users Now!'>
 </form>
 

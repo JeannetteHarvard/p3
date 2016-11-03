@@ -7,9 +7,12 @@
 @section('content')
 
 <strong>Here is your Lorem Ipsum text:</strong>
+
 </br></br>
 
-{!! Lipsum::html($paragraphs) !!}
+<div class="container-fluid">
+  {!! $text !!}
+</div>
 
 </br></br>
 

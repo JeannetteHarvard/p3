@@ -32,3 +32,9 @@ blockquote.linkquote {
 blockquote.linkquote em {
   color: #DC143C
 }
+
+.nowrap {
+  overflow: hidden;
+  white-space: nowrap;
+  color: red;
+}

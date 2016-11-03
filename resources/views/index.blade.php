@@ -20,7 +20,7 @@
         <blockquote class="linkquote"><a href="/lorem-ipsum">Go ahead and try <em>Lorem Ipsum Generator!</em> >>></a></blockquote>
       </div>
       <div class="col-xs-6">
-        <blockquote class="linkquote"><a href="/lorem-ipsum">Go ahead and try <em>Random User Generator!</em> >>></a></blockquote>
+        <blockquote class="linkquote"><a href="/random-user">Go ahead and try <em>Random User Generator!</em> >>></a></blockquote>
     </div>
   </div>
 

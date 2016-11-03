@@ -6,39 +6,51 @@
 
 @section('content')
 
-<strong>Here are your random users:</strong>
+<strong>Here are your Random Users:</strong>
+
+@if ($pictures  == "on")
+  </br>
+  <i>(please wait for pictures to load)</i>
+@endif
+
 </br></br>
 
-
-<table>
+<div class="container-fluid">
   <?php
-
-  use \faker\Faker\Factory;
-
   // use the factory to create a Faker\Generator instance
   $faker = Faker\Factory::create();
+?>
 
-  // generate data by accessing properties
+  @for ($i = 0; $i < $users; $i++)
+    <div class="row">
+      <div class="col-md-1"> <b># {{$i+1}}</b></div>
 
-  for ($i=0; $i < $users; $i++) {
-    echo '<tr>';
-    echo '<td> <img src="'.$faker->imageUrl($width = 30, $height = 40).'" alt="Avatar"></td>';
-    echo '<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>';
-    echo '<td> <b>'.$faker->name.'</b></td>';
-    echo '<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>';
-    echo '<td>'. $faker->date($format = 'Y-m-d', $max = '2000-01-01') .'</td>';
-    echo '<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>';
-    echo '<td>'.$faker->address.'</td>';
-    echo '<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>';
-    echo '<td>'.$faker->text($maxNbChars = 200).'</td>';
-    echo '</tr>';
-    echo '<tr><td>&nbsp;</td></tr>';
-  }
-  ?>
-  </table>
+    @if ($pictures  == "on")
+      <div class="col-md-1"> <img src="{{ $faker->imageUrl($width = 30, $height = 40) }}" alt="Avatar"> </div>
+    @endif
+
+      <div class="col-md-2"> <b> {{ $faker->name }} </b></div>
+
+    @if ($dateofbirth  == "on")
+      <div class="col-md-2"> {{ $faker->date($format = 'Y-m-d', $max = '2000-01-01') }}</div>
+    @endif
+
+    @if ($address  == "on")
+      <div class="col-md-3"> {{ $faker->address }}</div>
+    @endif
+
+    @if ($profile  == "on")
+      <div class="col-md-3"> {{ $faker->text($maxNbChars = 200) }}</div>
+    @endif
+
+  </div> <!-- closing row -->
+  <div class="row"><div class="col-md-12">&nbsp;</div></div>
+
+  @endfor
+</div> <!-- closing container -->
 
 </br></br>
 
-<a href="/lorem-ipsum"><< Back to Random User Generator</a>
+<a href="/random-user"><< Back to Random User Generator</a>
 
 @stop
