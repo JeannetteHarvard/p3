@@ -10,6 +10,7 @@ First Laravel Project featuring 2 functionalities achieved through implementatio
 - Random User Generator: generates random user data with the possibility of including a picture, date of birth, US address and a brief profile
 
 ## Screencast Demo
+Quick demonstration of the project and implementation:
 <http://screencast-o-matic.com/watch/cDXerIjs5c>
 
 ## Details for Teaching Team
@@ -30,6 +31,3 @@ The project uses standard Laravel Framework coding procedures with the implement
 <https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js>
 - The background image is borrowed from the following article:
 <https://www.linkedin.com/pulse/what-robotic-process-automation-rpa-josh-noble>
-
-## Project Submission Date
-November 3, 2016
