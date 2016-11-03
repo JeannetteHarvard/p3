@@ -10,9 +10,7 @@ First Laravel Project featuring 2 functionalities achieved through implementatio
 - Random User Generator: generates random user data with the possibility of including a picture, date of birth, US address and a brief profile
 
 ## Screencast Demo
-<TBD>
-
-TBD
+<http://screencast-o-matic.com/watch/cDXerIjs5c>
 
 ## Details for Teaching Team
 Our Developer's Best Friend toolset features Lorem Ipsum and Random User generators with advanced functionality. No special instructions are required as the interface is straightforward.
