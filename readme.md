@@ -1,27 +1,35 @@
-# Laravel PHP Framework
+# Project 3 for DWA15
+## First Laravel Project: Lorem Ipsum and Random User Generator
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## Live URL
+<http://p3.jeannette.nyc/>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+## Description
+First Laravel Project featuring 2 functionalities achieved through implementation external packages:
+- Lorem Ipsum Generator: generates filler lorem ipsum paragraphs based on user input for number, size, links or list
+- Random User Generator: generates random user data with the possibility of including a picture, date of birth, US address and a brief profile
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## Screencast Demo
+<TBD>
 
-## Official Documentation
+TBD
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+## Details for Teaching Team
+Our Developer's Best Friend toolset features Lorem Ipsum and Random User generators with advanced functionality. No special instructions are required as the interface is straightforward.
+The project used standard Laravel Framework coding procedures with the implementation of two external packages.
 
-## Contributing
+## Outside code & sources
+- Laravel Framework
+- Laravel Ipsum package 'magyarjeti/laravel-lipsum'
+<https://github.com/magyarjeti/laravel-lipsum>
+- Random User package 'fzaninotto/Faker'
+<https://github.com/fzaninotto/Faker>
+- Bootstrap CSS:
+<https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css>
+<https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css>
+<https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js>
+- The background image is borrowed from the following article:
+<https://www.linkedin.com/pulse/what-robotic-process-automation-rpa-josh-noble>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+## Project submission date
+November 3, 2016
