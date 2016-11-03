@@ -25,19 +25,19 @@
 </div>
 <div class="row">
     <div class="col-lg-2"><label for="pictures">Pictures</label></div>
-    <div class="col-lg-3"><input name="pictures" type="checkbox"> </div>
+    <div class="col-lg-3"><input name="pictures" type="checkbox" id="pictures"> </div>
 </div>
 <div class="row">
     <div class="col-lg-2"><label for="dateofbirth">Date of Birth</label></div>
-    <div class="col-lg-3"><input name="dateofbirth" type="checkbox"> </div>
+    <div class="col-lg-3"><input name="dateofbirth" type="checkbox" id="dateofbirth"> </div>
 </div>
 <div class="row">
     <div class="col-lg-2"><label for="address">Address</label></div>
-    <div class="col-lg-3"><input name="address" type="checkbox"> </div>
+    <div class="col-lg-3"><input name="address" type="checkbox" id="address"> </div>
 </div>
 <div class="row">
     <div class="col-lg-2"><label for="profile">Profile</label></div>
-    <div class="col-lg-3"><input name="profile" type="checkbox"> </div>
+    <div class="col-lg-3"><input name="profile" type="checkbox" id="profile"> </div>
 </div>
 
     <input type='submit' value='Get My Users Now!'>
