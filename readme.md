@@ -17,7 +17,7 @@ TBD
 ## Details for Teaching Team
 Our Developer's Best Friend toolset features Lorem Ipsum and Random User generators with advanced functionality. No special instructions are required as the interface is straightforward.
 
-The project uses standard Laravel Framework coding procedures with the implementation of two external packages.
+The project uses standard Laravel Framework coding procedures with the implementation one Laravel package and one PHP package.
 
 ## Outside code & sources
 - Laravel Framework
