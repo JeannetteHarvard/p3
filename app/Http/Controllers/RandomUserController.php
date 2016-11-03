@@ -2,6 +2,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use \Faker\Factory as Faker;
 
 class RandomUserController extends Controller
 {
@@ -14,11 +15,13 @@ class RandomUserController extends Controller
 
 
   public function generate(Request $request) {
-
       // First, validate the input data
     $this->validate($request, [
         'users' => 'required|numeric|min:1|max:33',
     ]);
+
+      // generate Faker instance
+      $faker = Faker::create();
 
       // getting input parameters
       $users = $request->input('users', '3');
@@ -32,7 +35,8 @@ class RandomUserController extends Controller
         ->with('pictures', $pictures)
         ->with('dateofbirth', $dateofbirth)
         ->with('address', $address)
-        ->with('profile', $profile);
+        ->with('profile', $profile)
+        ->with('faker', $faker);
   }
 
 }

@@ -16,10 +16,6 @@
 </br></br>
 
 <div class="container-fluid">
-  <?php
-  // use the factory to create a Faker\Generator instance
-  $faker = Faker\Factory::create();
-?>
 
   @for ($i = 0; $i < $users; $i++)
     <div class="row">
